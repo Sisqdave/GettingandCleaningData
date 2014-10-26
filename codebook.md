@@ -1,4 +1,4 @@
-The data can be found at the following location:
+The dataset can be found at the following location:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
