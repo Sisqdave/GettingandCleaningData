@@ -2,11 +2,33 @@ The data can be found at the following location:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The test and files were merged together and matched with the subject data and the activity data.
+Information on the experments and data collection can be found in the readme.txt document which can be found in the zip file above.
+
+Test files:
+The dataset includes the following files:
+=========================================
+
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+The test and train files were merged together and matched with the subject data(subject-test.txt and subject.train.txt) and the activity data(y_test and y_train).
 
 Duplicate data that did not have mean or standard deviation data was removed from the data frame.
 
-The data was then converted to tidy data by lengthening abbreviations and removing non alpha numeric characters. 
+The variable names(feature.txt) were then converted to tidy data by lengthening abbreviations and removing non alpha numeric characters. 
 The data was then sorted by subject and activity type and the mean was calculated
 There were thirty subjects
 
@@ -111,12 +133,6 @@ The variables from the files were expanded to the following to insure tidy data
 "angleygravitymean"                                        
 "anglezgravitymean"                      
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
 
 
