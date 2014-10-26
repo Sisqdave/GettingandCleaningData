@@ -32,7 +32,8 @@ The variable names(feature.txt) were then converted to tidy data by lengthening 
 The data was then sorted by subject and activity type and the mean was calculated
 There were thirty subjects
 
-Activity types were 
+Activity types were: 
+
 LAYING           
 SITTING            
 STANDING          
