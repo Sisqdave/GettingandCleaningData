@@ -4,9 +4,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The test and files were merged together and matched with the subject data and the activity data.
 
-Duplicate data that did not have mean or standard deviation data was remove from the data frame.
+Duplicate data that did not have mean or standard deviation data was removed from the data frame.
 
-The data was then converted to tidy data by lengthing abbreviation name and removing non alpha numeric characters. 
+The data was then converted to tidy data by lengthening abbreviations and removing non alpha numeric characters. 
 The data was then sorted by subject and activity type and the mean was calculated
 There were thirty subjects
 
